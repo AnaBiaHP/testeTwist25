@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pag1.html">Página 1</a>
+        <a href="pag2.html">Página 2</a>
+    </nav>
+    <section>
+        <from action="" method="get" name="feira">
+            <fieldset>
+                <legend>
+                    Dados pessoais:
+                </legend>
+                <label for="nome">Nome: </label>
+                <input type="text" name="txtNome" id="txtNome" size="15" required autofocus/>
+                <br/>
+                <label for="dtNascimento">Data Nascimento: </label>
+                <input type="date" name="DtNascimento" id="dtNascimento" required>
+                <br/>
+                <label for="cpf">CPF:</label>
+                <input type="text" name="txtCpf" id="txtCpf" disabled/>
+                <br/>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="tlContato" id="tlContato" size="15" readonly
+                        placeholder="(DDD)nnnnn-nnnn"/>
+                <br/>
+                <label for="email">Email: </label> 
+                <input type="email" name="email" id="email" size="100" required/>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Endereço: </legend>
+                <label for="cep">CEP: </label>
+                <input type="" name="" id="" size="9"/>
+                <br/>
+                <label for="logradouro">Logradouro: </label>
+                <input type="text" name="txtLog" id="txtLog" size="100"/>
+                <br/>
+                <label for="numero">Numero: </label>
+                <input type="text" name="txtNUm" id="txtNum" size="6" maxlength="6"/>
+                <br/>
+                <label for="complemento" >Complemento: </label>
+                <input type="text" name="txtComp" id="txtComp" size="10" maxlength="10"/>
+                <br/>
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="txtEstado" id="txtEstado" size="50" maxlength="50">
+                <label for="estado">Estado: </label>
+                <select>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                </select>
+            </fieldset>
+            <br/>
+            <fildset>
+                <legend size="30">Feira: </legend>
+                <label for="frutas">Fruta: </label>
+                <input list="comida" id="IsComida" name="IsComida">
+                <datalist id="comida">
+                    <option value="Maça"></option>
+                    <option value="Perâ"></option>
+                    <option valeu="Banana"></option>
+                </datalist>
+                <br/><br/>
+                <label for="tempero">Temperos: </label>
+                <select id="cbxTemp" name="cbxTemp">
+                    <optgroup label="especiarias">
+                        <option value="Canela">Canela</option>
+                        <option value="'Cravo">Cravo</option>
+                        <option value="Pimenta">Pimenta</option>
+                        <option value="Anis">Anis</option>
+                    </optgroup>
+                    <optgroup label="raiz">
+                        <option value="Açafrão">Açafrão</option>
+                    </optgroup>
+                    <optgroup label="folha">
+                        <option value="Salsa">Salsa</option>
+                        <option value="Agrião">Agrião</option>
+                        <option value="Coentro">Coentro</option>
+                    </optgroup>
+                </select>
+            </fildset>
+            <input type="submit" value="Salvar">
+            <br/>
+            <button type="button">
+                <img src="img/flor 2.jpg"
+                    width="60px" height="60px">
+                    <strong> Aviso Urgente</strong>
+            </button>
+            <br/>
+        </from>     
+    </section>
+    <footer>Site para fins educacionais</footer>
+</body>
+</html>

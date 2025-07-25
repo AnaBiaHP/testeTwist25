@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Formulario</h1></header>
+    <nav></nav>
+    <section>
+        <form action="" method="post" name="cadCarro">
+            <label for="classe">classe social:</label><br/>
+            <label for="A"> A:</label>
+            <input type="radio" name="social" id="a" value="a" />
+            <label for="B"> B:</label>           
+            <input type="radio" name="social" id="b" value="b"/>
+            <label for="C"> C:</label>  
+            <input type="radio" name="social" id="c" value="c" checked/>
+            <label for="D"> D:</label>  
+            <input type="radio" name="social" id="d" value="d"/>
+            <label for="E"> E:</label>  
+            <input type="radio" name="social" id="e" value="e"/>
+            <br/>
+            <hr/>
+            <label for="carros"> Carros:</label><br/>
+            <label for="ferrari"> Ferrari</label>
+            <input type="checkbox" name="carros"
+                id="ferrari" value="Ferrari" checked/>
+            <label for="camaro"> Camaro:</label>
+            <input type="checkbox" name="carros"
+                id="camaro" value="Camaro"/>
+            &nbsp;
+            <label for="outros"> Outros:</label>
+            <input type="checkbox" name="carros"
+                id="outros" value="Outros" checked/> <!--checked já vai selecionado-->
+            <br/>
+            <input type="hidden" name="preco"
+                id="preco" value="120000"/>
+            <br/>
+            <label for="arquivo"> Arquivo:</label>  
+            <input type="file" id="arquivo" name="arquivo"/>
+            <br/>
+            <input type="submit"/>
+            <input type="button" value="Clique Aqui"
+                    name="teste" id="teste"
+                    onclick="alert('Bom dia amigo!\n Como vai?')"/>
+            &nbsp;
+            <input type="image" src="img/flor 2.jpg"
+                width="'50px" >
+        </form>
+    </section>
+    <footer>Site para fins educativos</footer>
+</body>
+</html>

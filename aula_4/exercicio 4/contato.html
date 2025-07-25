@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Receitas simples</h1></header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="receita.html">Receitas</a>
+        <a href="video.html">Vídeo</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <section>
+        <fieldset>
+            <legend>Contato: </legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="txtNome" id="txtNome" size="20" required autofocus/>
+            <br/>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tlTelefone" id="tlTelefone"/>
+            <br/>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" size="100" required/>
+            <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <Legend>Endereço:</Legend>
+            <label for="rua">Rua: </label>
+            <input type="text" name="txRua" id="txRua"/>
+            <label for="estado">EStado:</label>
+            <select>
+                <option value="RJ">RJ</option>
+                <option value="MG">MG</option>
+                <option value="MA">MA</option>
+            </select>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <Legend>Receita favorita:</Legend>
+            <select id="cbxReceita" name="cbxReceita">
+                <optgroup label="doce">
+                    <option value="Brigadeiro">Brigadeiro</option>
+                    <option value="Brownie">Brownie</option>
+                    <option value="torta de limão">Torta de limão</option>
+                </optgroup>
+                <optgroup label="salgado">
+                    <option value="strogonoff">Strogonoff</option>
+                    <option value="feijoada">feijoada</option>
+                    <option value="salpicão">Salpicão</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend></legend>
+            <datalist>
+
+            </datalist>
+        </fieldset>
+    </section>
+    <footer>Site para fins educacionais</footer>
+</body>
+</html>
